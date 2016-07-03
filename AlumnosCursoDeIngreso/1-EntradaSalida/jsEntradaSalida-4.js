@@ -4,6 +4,8 @@
 */
 function Mostar()
 {
-	
+	var mensaje=prompt("Ingrese texto debajo","Esto sigue en blanco");
+	document.getElementById('elNombre').value=mensaje;
+
 }
 
